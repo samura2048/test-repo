@@ -1,0 +1,11 @@
+name: workflow-01 example
+
+on:
+  workflow_dispatch:
+
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+    - run: echo "The deploy was successful."
