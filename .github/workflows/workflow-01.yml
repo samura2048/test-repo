@@ -1,6 +1,11 @@
 name: workflow-01 example
 
 on:
+  push:
+    branches:
+      - main
+      - deploy-test
+  
   workflow_dispatch:
 
 
